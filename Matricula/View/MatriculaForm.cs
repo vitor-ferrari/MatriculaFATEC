@@ -119,7 +119,7 @@ namespace Matricula
                 matricula.Curso = cbCurso.Text;
                 matricula.Turno = cbTurno.Text;
                 //cmdInsert.Parameters.AddWithValue("@foto", imgArray == null ? (object) DBNull.Value : imgArray);
-
+                //tudo certo
                 matriculaController.inserir(matricula);
                 
                 //Faz os inserts de acordo com a quantidade de telefones informados
